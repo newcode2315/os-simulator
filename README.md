@@ -52,27 +52,7 @@ To get a local copy up and running, follow these simple steps.
 
 You need to have [Node.js](https://nodejs.org/) (version 16 or higher) and npm installed on your machine.
 
-### Installation
 
-1.  **Clone the repository:**
-    ```sh
-    git clone [https://github.com/abhiextra247/os-simulator.git](https://github.com/abhiext247/os-simulator.git)
-    ```
-2.  **Navigate to the project directory:**
-    ```sh
-    cd os-simulator
-    ```
-3.  **Install NPM packages:**
-    ```sh
-    npm install
-    ```
-4.  **Start the development server:**
-    ```sh
-    npm run dev
-    ```
-    The application will be available at `http://localhost:5173` (or the next available port).
-
----
 
 ## usage How to Use
 
