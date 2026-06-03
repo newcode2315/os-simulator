@@ -1,75 +1,90 @@
 # Page Replacement Algorithm Simulator 🧠
 
-Interactive web application for visualizing page replacement algorithms used in operating systems.
+An interactive web application designed to help students and enthusiasts visualize and understand various page replacement algorithms used in operating systems. This tool provides a clear, step-by-step simulation of how algorithms like FIFO, LRU, Optimal, and others manage memory frames.
 
-This simulator demonstrates how algorithms such as **FIFO**, **Optimal**, **LRU**, **LFU**, and **MFU** manage memory frames over time with visual step-by-step output.
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+---
+
+## 📸 Screenshot
+
+![](/public/ss1.png)
+![](/public/ss2.png)
+![](/public/ss3.png)
+![](/public/ss4.png)
+![](/public/ss5.png)
+![](/public/ss6.png)
+
 
 ---
 
 ## ✨ Features
 
-* Simulates 5 page replacement algorithms: **FIFO**, **Optimal**, **LRU**, **LFU**, and **MFU**
-* Custom page reference sequence input
-* Configurable number of memory frames
-* Step-by-step visualization of memory frame state
-* Hit/fault statistics and ratio summary
-* Interactive chart for hit vs. fault comparison
-* Responsive UI for desktop and mobile
-* Includes a sample `cpp_Implementation.cpp` file for algorithm reference
+* **Algorithm Simulation**: Simulates 5 key algorithms: FIFO, Optimal, LRU, LFU, and MFU.
+* **Customizable Inputs**: Allows users to set the number of memory frames and a custom page reference string.
+* **Step-by-Step Visualization**: Displays a clear, color-coded table showing the state of memory frames at each step.
+* **Detailed Summary**: Provides aggregate statistics including hit/fault counts and hit/fault ratios.
+* **Interactive Chart**: Includes a pie chart for a quick visual analysis of hits vs. faults.
+* **Responsive Design**: A clean and modern UI that works on desktops, tablets, and mobile devices.
+* **Educational Content**: Features dedicated pages explaining the theory, strengths, and weaknesses of each algorithm.
+* **C++ Implementation**: I have also added a file "cpp_implementation.cpp" in the project code base to get the understanding of these Algorithms in C++ as well.
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Frontend: React, Vite
-* Styling: Tailwind CSS
-* Routing: React Router DOM
-* Charting: Chart.js + react-chartjs-2
-* Language: JavaScript
+* **Frontend**: [React.js](https://reactjs.org/), [Vite](https://vitejs.dev/)
+* **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+* **Routing**: [React Router DOM](https://reactrouter.com/)
+* **Charting**: [Chart.js](https://www.chartjs.org/) with [react-chartjs-2](https://react-chartjs-2.js.org/)
+* **Deployment**: Vercel
+* **Algorithms Implementation**: C++, Javascript
 
 ---
 
-## ⚙️ Local Setup
+## ⚙️ Getting Started
+
+To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
-* Node.js 16 or newer
-* npm
+You need to have [Node.js](https://nodejs.org/) (version 16 or higher) and npm installed on your machine.
 
-### Install and run
+### Installation
 
-```sh
-cd c:\Users\ankit\Downloads\os-simulator\os-simulator-main
-npm install
-npm run dev
-```
-
-Open the URL shown in the terminal, typically `http://localhost:5173/`.
-
-### Build for production
-
-```sh
-npm run build
-```
-
-### Preview production build
-
-```sh
-npm run preview
-```
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/abhiextra247/os-simulator.git](https://github.com/abhiext247/os-simulator.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```sh
+    cd os-simulator
+    ```
+3.  **Install NPM packages:**
+    ```sh
+    npm install
+    ```
+4.  **Start the development server:**
+    ```sh
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173` (or the next available port).
 
 ---
 
-## 🚀 How to Use
+## usage How to Use
 
-1. Open the **Simulator** page.
-2. Enter the desired **Number of Frames**.
-3. Enter a **Page Sequence** using spaces or commas.
-4. Select an algorithm button to run the simulation.
-5. Review the memory state table, summary metrics, and chart output.
+1.  Navigate to the **Simulator** page.
+2.  Enter the desired **Number of Frames**.
+3.  Enter the **Page Sequence** using spaces or commas as separators (e.g., `7 0 1 2 0 3`).
+4.  Click on one of the algorithm buttons (e.g., `FIFO`, `LRU`) to run the simulation.
+5.  The results, including the step-by-step table and summary chart, will appear below.
+6.  Click **Reset** to clear the results and try new inputs.
 
 ---
 
 ## 📄 License
 
-This project is available under the MIT License.
+Distributed under the MIT License. See `LICENSE` for more information.
